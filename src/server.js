@@ -54,7 +54,13 @@ try {
 // .use() adds plugins to our server.
 // Enable CORS specifically for your frontend
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000', 'https://solara-g8-production.up.railway.app'],
+  origin: [
+    'http://localhost:5173',           // Local development
+    'http://localhost:3000',            // Local backend
+    'https://solara-g8.vercel.app',     // Vercel frontend
+    'https://solara-g8-907uqrluj-sserpentt88-1817s-projects.vercel.app/', // exact Vercel URL
+    'https://solara-backend-cx3p.onrender.com'  // Render backend 
+  ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
