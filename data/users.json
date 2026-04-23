@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1772844945655,
+    "email": "sara@gmail.com",
+    "password": "xxx",
+    "age": 23,
+    "sex": 2,
+    "skinColor": 5,
+    "skinSensitivityCode": 5,
+    "dailySunMinutes": 30,
+    "createdAt": "2026-03-07T00:55:45.655Z"
+  },
+  {
+    "id": 1772850228560,
+    "email": "sara2@gmail.com",
+    "password": "123",
+    "age": "24",
+    "sex": 2,
+    "skinColor": 2,
+    "skinSensitivityCode": 2,
+    "dailySunMinutes": 81,
+    "createdAt": "2026-03-07T02:23:48.560Z"
+  },
+  {
+    "id": 1776947846468,
+    "email": "sa@gmail.com",
+    "password": "123",
+    "age": 23,
+    "sex": 2,
+    "skinColor": 1,
+    "skinSensitivityCode": 1,
+    "dailySunMinutes": 23,
+    "createdAt": "2026-04-23T12:37:26.468Z"
+  }
+]
